@@ -50,7 +50,9 @@
     <Compile Include="PackageGroupes\GroupeBAO.cs" />
     <Compile Include="PackageModules\Class1.cs" />
     <Compile Include="PackageModules\ModuleBAO.cs" />
-    <Compile Include="PackageNotes\NoteBAO.cs" />
+    <Compile Include="PackageNotes\ControleContinueBAO.cs" />
+    <Compile Include="PackageNotes\NoteContenuPresicionBAO.cs" />
+    <Compile Include="PackageNotes\NoteControleContinueBAO.cs" />
     <Compile Include="PackagePrecision\ContenuPresicionBAO.cs" />
     <Compile Include="PackagePrecision\PrecisionBAO.cs" />
     <Compile Include="PackagePrevisionSeances\Class1.cs" />
