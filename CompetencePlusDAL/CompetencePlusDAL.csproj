@@ -59,8 +59,10 @@
     <Compile Include="PackageGroupes\GroupeDAO.cs" />
     <Compile Include="PackageModules\Module.cs" />
     <Compile Include="PackageModules\ModuleDAO.cs" />
-    <Compile Include="PackageNotes\Note.cs" />
-    <Compile Include="PackageNotes\NoteDAO.cs" />
+    <Compile Include="PackageNotes\ControleContinue.cs" />
+    <Compile Include="PackageNotes\ControleContinueDAO.cs" />
+    <Compile Include="PackageNotes\NoteControleContinue.cs" />
+    <Compile Include="PackageNotes\NoteControleContinueDAO.cs" />
     <Compile Include="PackagePrecision\ContenuPrecisionDAO.cs" />
     <Compile Include="PackagePrecision\ContenuPresicion.cs" />
     <Compile Include="PackagePrecision\Precision.cs" />

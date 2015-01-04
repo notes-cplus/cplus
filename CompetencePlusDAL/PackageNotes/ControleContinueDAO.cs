@@ -5,7 +5,8 @@ using System.Text;
 
 namespace CompetencePlus.PackageNotes
 {
-    class NoteDAO
+    class ControleContinueDAO
     {
+
     }
 }
