@@ -42,21 +42,21 @@ namespace CompetencePlus.PackageModules
       }
 
 
-      public void Add(Module o)
+      public int Add(Module o)
       {
           string req = "insert into [Modules](id,nom,duree,strategieEnseignement,apprentisage,evaluation,materiel,equipement,competence,presentation,description) values("+o.ID+",'"+o.Nom+"',"+o.Duree+",'"+o.StrategieEnseignement+"','"+o.Apprentisage+"','"+o.Evaluation+"','"+o.Materiel+"','"+o.Equipement+"','"+o.Competence+"','"+o.Presentation+"','"+o.Description+"')";
-          MyConnection.ExecuteNonQuery(req);
+          return  MyConnection.ExecuteNonQuery(req);
       }
       
-      public void Update(Module o)
+      public int Update(Module o)
       {
           throw new NotImplementedException();
       }
 
-      public void Delete(int id)
+      public int Delete(int id)
       {
           string req = "delete from [Module] where id = " + id;
-          MyConnection.ExecuteNonQuery(req);
+          return MyConnection.ExecuteNonQuery(req);
       }
 
       public Module FindById(int id)

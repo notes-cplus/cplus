@@ -140,5 +140,10 @@ namespace CompetencePlus.PackageGroupes
             g.Description = DescriptionTextBox.Text;
            groupeBindingSource.DataSource= new GroupeBAO().FindByGroup(g);
         }
+
+        private void groupeDataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

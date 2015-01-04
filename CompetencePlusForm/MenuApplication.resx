@@ -145,47 +145,11 @@
   <data name="séancesToolStripMenuItem.Text" xml:space="preserve">
     <value>Séances</value>
   </data>
-  <data name="gestionDesCompétencesDesStagiairesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>220, 22</value>
-  </data>
-  <data name="gestionDesCompétencesDesStagiairesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Compétences des stagiaires</value>
-  </data>
-  <data name="gestionDesNotesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>220, 22</value>
-  </data>
-  <data name="gestionDesNotesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Notes</value>
-  </data>
-  <data name="absencesDesStagiairesToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>220, 22</value>
-  </data>
-  <data name="absencesDesStagiairesToolStripMenuItem1.Text" xml:space="preserve">
-    <value>Absences des stagiaires</value>
-  </data>
   <data name="suiviToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>90, 20</value>
   </data>
   <data name="suiviToolStripMenuItem.Text" xml:space="preserve">
     <value>Notes et suivi</value>
-  </data>
-  <data name="gérerStagiaireToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>207, 22</value>
-  </data>
-  <data name="gérerStagiaireToolStripMenuItem.Text" xml:space="preserve">
-    <value>Gestion stagiaires</value>
-  </data>
-  <data name="ajouterUneInscriptionToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>207, 22</value>
-  </data>
-  <data name="ajouterUneInscriptionToolStripMenuItem1.Text" xml:space="preserve">
-    <value>Ajouter une inscription</value>
-  </data>
-  <data name="validationDesInscriptionToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>207, 22</value>
-  </data>
-  <data name="validationDesInscriptionToolStripMenuItem.Text" xml:space="preserve">
-    <value>Validation des inscription</value>
   </data>
   <data name="gestionIndividuToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>69, 20</value>
@@ -193,131 +157,17 @@
   <data name="gestionIndividuToolStripMenuItem.Text" xml:space="preserve">
     <value>Stagiaires</value>
   </data>
-  <data name="gestionDesFormationsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>187, 22</value>
-  </data>
-  <data name="gestionDesFormationsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Formations</value>
-  </data>
-  <data name="prévisionSéquencesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="prévisionSéquencesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Prévision séquences</value>
-  </data>
-  <data name="prévisionSéancesToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>187, 22</value>
-  </data>
-  <data name="prévisionSéancesToolStripMenuItem1.Text" xml:space="preserve">
-    <value>Prévision des séances</value>
-  </data>
   <data name="formationsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>79, 20</value>
   </data>
   <data name="formationsToolStripMenuItem.Text" xml:space="preserve">
     <value>Formations</value>
   </data>
-  <data name="affectationDesModulesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>195, 22</value>
-  </data>
-  <data name="affectationDesModulesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Ajouter une formation</value>
-  </data>
-  <data name="bilanDeCompétencesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>195, 22</value>
-  </data>
-  <data name="bilanDeCompétencesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Bilan des compétences</value>
-  </data>
   <data name="pédagogieToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 20</value>
   </data>
   <data name="pédagogieToolStripMenuItem.Text" xml:space="preserve">
     <value>Pédagogie</value>
-  </data>
-  <data name="annéesDeFormationToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>207, 22</value>
-  </data>
-  <data name="annéesDeFormationToolStripMenuItem.Text" xml:space="preserve">
-    <value>Années de formation</value>
-  </data>
-  <data name="modulesToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
-  </data>
-  <data name="modulesToolStripMenuItem2.Text" xml:space="preserve">
-    <value>Modules</value>
-  </data>
-  <data name="précisionsToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
-  </data>
-  <data name="précisionsToolStripMenuItem1.Text" xml:space="preserve">
-    <value>Précisions</value>
-  </data>
-  <data name="compétencesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>207, 22</value>
-  </data>
-  <data name="compétencesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Modules et compétences</value>
-  </data>
-  <data name="gérerFiliereToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>207, 22</value>
-  </data>
-  <data name="gérerFiliereToolStripMenuItem.Text" xml:space="preserve">
-    <value>Filières</value>
-  </data>
-  <data name="gestionDesGroupesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>207, 22</value>
-  </data>
-  <data name="gestionDesGroupesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Groupes</value>
-  </data>
-  <data name="lesSallesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="lesSallesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Les salles</value>
-  </data>
-  <data name="catégogieDesSallesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="catégogieDesSallesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Catégogie des salles</value>
-  </data>
-  <data name="sallesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>207, 22</value>
-  </data>
-  <data name="sallesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Salles</value>
-  </data>
-  <data name="lesSéancesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>190, 22</value>
-  </data>
-  <data name="lesSéancesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Les séances</value>
-  </data>
-  <data name="catégogieDactivitéToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>190, 22</value>
-  </data>
-  <data name="catégogieDactivitéToolStripMenuItem.Text" xml:space="preserve">
-    <value>Catégogie des activité</value>
-  </data>
-  <data name="séancesToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>207, 22</value>
-  </data>
-  <data name="séancesToolStripMenuItem1.Text" xml:space="preserve">
-    <value>Séances</value>
-  </data>
-  <data name="niveauxDesCompétencesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>211, 22</value>
-  </data>
-  <data name="niveauxDesCompétencesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Niveaux des compétences</value>
-  </data>
-  <data name="compétenceToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>207, 22</value>
-  </data>
-  <data name="compétenceToolStripMenuItem.Text" xml:space="preserve">
-    <value>Compétence</value>
   </data>
   <data name="gestionDinformationToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>61, 20</value>
@@ -355,6 +205,156 @@
   </data>
   <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="gestionDesCompétencesDesStagiairesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 22</value>
+  </data>
+  <data name="gestionDesCompétencesDesStagiairesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Compétences des stagiaires</value>
+  </data>
+  <data name="gestionDesNotesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 22</value>
+  </data>
+  <data name="gestionDesNotesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="absencesDesStagiairesToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 22</value>
+  </data>
+  <data name="absencesDesStagiairesToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Absences des stagiaires</value>
+  </data>
+  <data name="gérerStagiaireToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 22</value>
+  </data>
+  <data name="gérerStagiaireToolStripMenuItem.Text" xml:space="preserve">
+    <value>Gestion stagiaires</value>
+  </data>
+  <data name="ajouterUneInscriptionToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 22</value>
+  </data>
+  <data name="ajouterUneInscriptionToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Ajouter une inscription</value>
+  </data>
+  <data name="validationDesInscriptionToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 22</value>
+  </data>
+  <data name="validationDesInscriptionToolStripMenuItem.Text" xml:space="preserve">
+    <value>Validation des inscription</value>
+  </data>
+  <data name="gestionDesFormationsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 22</value>
+  </data>
+  <data name="gestionDesFormationsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Formations</value>
+  </data>
+  <data name="prévisionSéancesToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 22</value>
+  </data>
+  <data name="prévisionSéancesToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Prévision des séances</value>
+  </data>
+  <data name="prévisionSéquencesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="prévisionSéquencesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Prévision séquences</value>
+  </data>
+  <data name="affectationDesModulesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 22</value>
+  </data>
+  <data name="affectationDesModulesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ajouter une formation</value>
+  </data>
+  <data name="bilanDeCompétencesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 22</value>
+  </data>
+  <data name="bilanDeCompétencesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Bilan des compétences</value>
+  </data>
+  <data name="annéesDeFormationToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 22</value>
+  </data>
+  <data name="annéesDeFormationToolStripMenuItem.Text" xml:space="preserve">
+    <value>Années de formation</value>
+  </data>
+  <data name="compétencesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 22</value>
+  </data>
+  <data name="compétencesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Modules et compétences</value>
+  </data>
+  <data name="modulesToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="modulesToolStripMenuItem2.Text" xml:space="preserve">
+    <value>Modules</value>
+  </data>
+  <data name="précisionsToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="précisionsToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Précisions</value>
+  </data>
+  <data name="gérerFiliereToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 22</value>
+  </data>
+  <data name="gérerFiliereToolStripMenuItem.Text" xml:space="preserve">
+    <value>Filières</value>
+  </data>
+  <data name="gestionDesGroupesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 22</value>
+  </data>
+  <data name="gestionDesGroupesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Groupes</value>
+  </data>
+  <data name="sallesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 22</value>
+  </data>
+  <data name="sallesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Salles</value>
+  </data>
+  <data name="lesSallesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="lesSallesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Les salles</value>
+  </data>
+  <data name="catégogieDesSallesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="catégogieDesSallesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Catégogie des salles</value>
+  </data>
+  <data name="séancesToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 22</value>
+  </data>
+  <data name="séancesToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Séances</value>
+  </data>
+  <data name="lesSéancesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 22</value>
+  </data>
+  <data name="lesSéancesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Les séances</value>
+  </data>
+  <data name="catégogieDactivitéToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 22</value>
+  </data>
+  <data name="catégogieDactivitéToolStripMenuItem.Text" xml:space="preserve">
+    <value>Catégogie des activité</value>
+  </data>
+  <data name="compétenceToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 22</value>
+  </data>
+  <data name="compétenceToolStripMenuItem.Text" xml:space="preserve">
+    <value>Compétence</value>
+  </data>
+  <data name="niveauxDesCompétencesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>211, 22</value>
+  </data>
+  <data name="niveauxDesCompétencesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Niveaux des compétences</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

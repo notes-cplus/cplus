@@ -5,6 +5,6 @@
   <Titre>insert-into-Modules</Titre>
   <Code>20141229145658-insert-into-Modules</Code>
   <Increment>insert into Modules
- (nom,duree,strategieEnseignement,apprentisage,evaluation,materiel,equipement,competence,presentation,description,Filiere_id,Precision_id) values("Client Server",120,"","","","","","","","",1,1);
+ (nom,duree,strategieEnseignement,apprentisage,evaluation,materiel,equipement,competence,presentation,description,Filiere_id) values("Client Server",120,"","","","","","","","",1);
 </Increment>
 </IncrementationDB>

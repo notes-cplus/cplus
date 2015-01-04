@@ -42,13 +42,19 @@
   <ItemGroup>
     <Compile Include="PackageAbsences\Absence.cs" />
     <Compile Include="PackageAnneeFormations\AnneeFormation.cs" />
+    <Compile Include="PackageAnneeFormations\AnneformationDAO.cs" />
     <Compile Include="PackageDB\IncrementationDB.cs" />
     <Compile Include="PackageDB\IncrementDB_DAO.cs" />
     <Compile Include="PackageEmploisTemps\EmploisTemp.cs" />
+    <Compile Include="PackageEmploisTemps\EmploisTempDAO.cs" />
+    <Compile Include="PackageEmploisTemps\Seanceplanning.cs" />
+    <Compile Include="PackageEmploisTemps\SeanceplanningDAO.cs" />
     <Compile Include="PackageFilieres\Filiere.cs" />
     <Compile Include="PackageFilieres\FiliereDAO.cs" />
     <Compile Include="PackageFormateurs\Formateur.cs" />
+    <Compile Include="PackageFormateurs\FormateurDAO.cs" />
     <Compile Include="PackageFormations\Formation.cs" />
+    <Compile Include="PackageFormations\FormationDAO.cs" />
     <Compile Include="PackageGroupes\Groupe.cs" />
     <Compile Include="PackageGroupes\GroupeDAO.cs" />
     <Compile Include="PackageModules\Module.cs" />

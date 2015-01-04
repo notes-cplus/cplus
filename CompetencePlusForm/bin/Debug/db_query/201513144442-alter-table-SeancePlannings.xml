@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IncrementationDB xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Id>0</Id>
+  <DateCreation>2015-01-03T14:44:42.4793148+00:00</DateCreation>
+  <Titre>alter-table-SeancePlannings</Titre>
+  <Code>201513144442-alter-table-SeancePlannings</Code>
+  <Increment>alter table SeancePlannings
+add  CONSTRAINT   seanceemploisFK   FOREIGN KEY
+   (EmploisTemp_id) REFERENCES EmploisTemps(id);</Increment>
+</IncrementationDB>

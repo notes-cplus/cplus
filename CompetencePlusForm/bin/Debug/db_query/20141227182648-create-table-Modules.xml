@@ -9,7 +9,6 @@
    id                AutoIncrement,
    
    Filiere_id           int not null,
-   Precision_id         int,
    nom                  varchar(254),
    duree                int,
    strategieEnseignement Memo,
@@ -23,12 +22,6 @@
    primary key (id),
    
  foreign key (Filiere_id)
-      references Filieres(id),
-	  
-	  
- foreign key (Precision_id)
-      references Precisions(id)
-	  
-	  
+      references Filieres(id)
 );</Increment>
 </IncrementationDB>

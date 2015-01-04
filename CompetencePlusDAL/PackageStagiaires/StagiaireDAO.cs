@@ -11,19 +11,19 @@ namespace CompetencePlus.PackageStagiaires
 {
     public class StagiaireDAO : IGestion<Stagiaire>
     {
-        public  void Add(Stagiaire s)
+        public  int Add(Stagiaire s)
         {
             string Requete = "insert into stagiaires(Nom,Prenom,DateNaissance,sexe,Cin,Email,Telephone,Adress,ProfilImage,Etat,Filiere_id) values ('" +
                 s.Nom + "','" + s.Prenom + "','" + s.DateNaissance + "'," + 1 + ",'" + s.Cin + "','" + s.Email + "','" + s.Telephone + "','" + s.Adresse + "','" +
                 s.ProfilImage + "'," + s.Etat +","+s.Filiere.Id+")";
  
-            MyConnection.ExecuteNonQuery(Requete);
+            return MyConnection.ExecuteNonQuery(Requete);
         }
-        public void Update(Stagiaire s)
+        public int Update(Stagiaire s)
         {
             String Requete = "Update Stagiaires set Nom='"+s.Nom+"',Prenom='"+s.Prenom+"',DateNaissance='"+s.DateNaissance+"',Sexe="+s.Sexe+
                 ",Cin='"+s.Cin+"',Email='"+s.Email+"',Telephone ='"+s.Telephone+"',Adresse='"+s.Adresse+"',Images = '"+s.ProfilImage+"',Filiere_id="+s.Filiere.Id+" where id="+s.Id;
-            MyConnection.ExecuteNonQuery(Requete);
+            return MyConnection.ExecuteNonQuery(Requete);
         }
 
         public  void UpdateStat(int id)
@@ -32,10 +32,10 @@ namespace CompetencePlus.PackageStagiaires
             MyConnection.ExecuteNonQuery(Requete);
         }
 
-        public  void Delete(int id)
+        public  int Delete(int id)
         {
             String Requete = "Delete from Stagiaires where id =" + id;
-            MyConnection.ExecuteNonQuery(Requete);
+            return MyConnection.ExecuteNonQuery(Requete);
         }
 
         public  List<Stagiaire> Select()

@@ -9,7 +9,7 @@ using System.Data.SqlClient;
 using CompetencePlus.Tools;
 namespace CompetencePlus.PackagePrecision
 {
-    public class PrecisionDAO : IGestion<Precision>
+    public class PrecisionDAO  
     {
 
 

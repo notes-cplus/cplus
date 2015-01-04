@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IncrementationDB xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Id>0</Id>
+  <DateCreation>2014-12-31T12:14:19.9409115+00:00</DateCreation>
+  <Titre>create-table-SeancePlannings</Titre>
+  <Code>20141231121419-create-table-SeancePlannings</Code>
+  <Increment>create table SeancePlannings 
+(EmploisTemp_id   INTEGER,
+id int primary key,jour  INTEGER,
+heuredebut  INTEGER,heureFin INTEGER,
+CONSTRAINT   seanceemploiFK   FOREIGN KEY
+   (EmploisTemp_id) REFERENCES EmploisTemps(id));</Increment>
+</IncrementationDB>

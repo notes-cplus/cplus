@@ -10,22 +10,22 @@ namespace CompetencePlus.PackageFilieres
 {
     public class FiliereDAO : IGestion<Filiere>
     {
-        public  void Add(Filiere f)
+        public  int Add(Filiere f)
         {
             string Requete = "Insert into Filieres(Titre,Code,Description) values ('" + f.Titre + "','" + f.Code +"','"+f.Description+ "')";
-            MyConnection.ExecuteNonQuery(Requete);
+            return MyConnection.ExecuteNonQuery(Requete);
         }
 
-        public  void Update(Filiere f )
+        public  int Update(Filiere f )
         {
             string Requete = "Update Filieres set Code ='"+f.Code+"',Titre ='"+f.Titre+"',Description='"+f.Description+"' where id ="+f.Id;
-            MyConnection.ExecuteNonQuery(Requete);
+            return MyConnection.ExecuteNonQuery(Requete);
         }
 
-        public  void Delete(int id)
+        public  int Delete(int id)
         {
             string Requete = "Delete From Filieres where id="+id;
-            MyConnection.ExecuteNonQuery(Requete);
+            return MyConnection.ExecuteNonQuery(Requete);
         }
 
         public  List<Filiere> Select()

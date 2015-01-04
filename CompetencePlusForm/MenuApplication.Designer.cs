@@ -105,6 +105,7 @@
             // 
             this.mesEmploisDeTempsToolStripMenuItem.Name = "mesEmploisDeTempsToolStripMenuItem";
             resources.ApplyResources(this.mesEmploisDeTempsToolStripMenuItem, "mesEmploisDeTempsToolStripMenuItem");
+            this.mesEmploisDeTempsToolStripMenuItem.Click += new System.EventHandler(this.mesEmploisDeTempsToolStripMenuItem_Click);
             // 
             // suiviToolStripMenuItem
             // 

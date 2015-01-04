@@ -31,6 +31,7 @@
             this.components = new System.ComponentModel.Container();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.FiliereComboBox = new System.Windows.Forms.ComboBox();
+            this.filiereBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.BtResearch = new System.Windows.Forms.Button();
@@ -47,23 +48,22 @@
             this.BtAdd = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.groupeDataGridView = new System.Windows.Forms.DataGridView();
-            this.BtLast = new System.Windows.Forms.Button();
-            this.BtNext = new System.Windows.Forms.Button();
-            this.BtPrevious = new System.Windows.Forms.Button();
-            this.BtFirst = new System.Windows.Forms.Button();
-            this.groupeBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.codeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nomDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.filiereDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Update = new System.Windows.Forms.DataGridViewImageColumn();
             this.Delete = new System.Windows.Forms.DataGridViewImageColumn();
-            this.filiereBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.groupeBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.BtLast = new System.Windows.Forms.Button();
+            this.BtNext = new System.Windows.Forms.Button();
+            this.BtPrevious = new System.Windows.Forms.Button();
+            this.BtFirst = new System.Windows.Forms.Button();
             this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.filiereBindingSource)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.groupeDataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupeBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.filiereBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox2
@@ -87,12 +87,17 @@
             // FiliereComboBox
             // 
             this.FiliereComboBox.DataSource = this.filiereBindingSource;
+            this.FiliereComboBox.DisplayMember = "Id";
             this.FiliereComboBox.FormattingEnabled = true;
             this.FiliereComboBox.Location = new System.Drawing.Point(75, 108);
             this.FiliereComboBox.Name = "FiliereComboBox";
             this.FiliereComboBox.Size = new System.Drawing.Size(146, 21);
             this.FiliereComboBox.TabIndex = 9;
             this.FiliereComboBox.ValueMember = "Id";
+            // 
+            // filiereBindingSource
+            // 
+            this.filiereBindingSource.DataSource = typeof(CompetencePlus.PackageFilieres.Filiere);
             // 
             // label6
             // 
@@ -248,6 +253,48 @@
             this.groupeDataGridView.Size = new System.Drawing.Size(503, 318);
             this.groupeDataGridView.TabIndex = 0;
             this.groupeDataGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.groupeDataGridView_CellClick);
+            this.groupeDataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.groupeDataGridView_CellContentClick);
+            // 
+            // codeDataGridViewTextBoxColumn
+            // 
+            this.codeDataGridViewTextBoxColumn.DataPropertyName = "Code";
+            this.codeDataGridViewTextBoxColumn.HeaderText = "Code";
+            this.codeDataGridViewTextBoxColumn.Name = "codeDataGridViewTextBoxColumn";
+            this.codeDataGridViewTextBoxColumn.Width = 120;
+            // 
+            // nomDataGridViewTextBoxColumn
+            // 
+            this.nomDataGridViewTextBoxColumn.DataPropertyName = "Nom";
+            this.nomDataGridViewTextBoxColumn.HeaderText = "Nom";
+            this.nomDataGridViewTextBoxColumn.Name = "nomDataGridViewTextBoxColumn";
+            this.nomDataGridViewTextBoxColumn.Width = 120;
+            // 
+            // filiereDataGridViewTextBoxColumn
+            // 
+            this.filiereDataGridViewTextBoxColumn.DataPropertyName = "Filiere";
+            this.filiereDataGridViewTextBoxColumn.HeaderText = "Filiere";
+            this.filiereDataGridViewTextBoxColumn.Name = "filiereDataGridViewTextBoxColumn";
+            this.filiereDataGridViewTextBoxColumn.Width = 120;
+            // 
+            // Update
+            // 
+            this.Update.HeaderText = "";
+            this.Update.Image = global::CompetencePlus.Properties.Resources.Update;
+            this.Update.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
+            this.Update.Name = "Update";
+            this.Update.Width = 50;
+            // 
+            // Delete
+            // 
+            this.Delete.HeaderText = "";
+            this.Delete.Image = global::CompetencePlus.Properties.Resources.Delete;
+            this.Delete.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
+            this.Delete.Name = "Delete";
+            this.Delete.Width = 50;
+            // 
+            // groupeBindingSource
+            // 
+            this.groupeBindingSource.DataSource = typeof(CompetencePlus.PackageGroupes.Groupe);
             // 
             // BtLast
             // 
@@ -289,51 +336,6 @@
             this.BtFirst.UseVisualStyleBackColor = true;
             this.BtFirst.Click += new System.EventHandler(this.BtFirst_Click);
             // 
-            // groupeBindingSource
-            // 
-            this.groupeBindingSource.DataSource = typeof(CompetencePlus.PackageGroupes.Groupe);
-            // 
-            // codeDataGridViewTextBoxColumn
-            // 
-            this.codeDataGridViewTextBoxColumn.DataPropertyName = "Code";
-            this.codeDataGridViewTextBoxColumn.HeaderText = "Code";
-            this.codeDataGridViewTextBoxColumn.Name = "codeDataGridViewTextBoxColumn";
-            this.codeDataGridViewTextBoxColumn.Width = 120;
-            // 
-            // nomDataGridViewTextBoxColumn
-            // 
-            this.nomDataGridViewTextBoxColumn.DataPropertyName = "Nom";
-            this.nomDataGridViewTextBoxColumn.HeaderText = "Nom";
-            this.nomDataGridViewTextBoxColumn.Name = "nomDataGridViewTextBoxColumn";
-            this.nomDataGridViewTextBoxColumn.Width = 120;
-            // 
-            // filiereDataGridViewTextBoxColumn
-            // 
-            this.filiereDataGridViewTextBoxColumn.DataPropertyName = "Filiere";
-            this.filiereDataGridViewTextBoxColumn.HeaderText = "Filiere";
-            this.filiereDataGridViewTextBoxColumn.Name = "filiereDataGridViewTextBoxColumn";
-            this.filiereDataGridViewTextBoxColumn.Width = 120;
-            // 
-            // Update
-            // 
-            this.Update.HeaderText = "";
-            this.Update.Image = global::CompetencePlus.Properties.Resources.Update;
-            this.Update.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
-            this.Update.Name = "Update";
-            this.Update.Width = 50;
-            // 
-            // Delete
-            // 
-            this.Delete.HeaderText = "";
-            this.Delete.Image = global::CompetencePlus.Properties.Resources.Delete;
-            this.Delete.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
-            this.Delete.Name = "Delete";
-            this.Delete.Width = 50;
-            // 
-            // filiereBindingSource
-            // 
-            this.filiereBindingSource.DataSource = typeof(CompetencePlus.PackageFilieres.Filiere);
-            // 
             // FormGestionGroupes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -352,12 +354,12 @@
             this.Load += new System.EventHandler(this.FormGestionGroupes_Load);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.filiereBindingSource)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.groupeDataGridView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupeBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.filiereBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }

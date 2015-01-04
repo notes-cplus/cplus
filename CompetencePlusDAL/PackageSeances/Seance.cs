@@ -2,10 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
+using CompetencePlus.PackageFormations;
 namespace CompetencePlus.PackageSeances
 {
-    class Seance
+  public  class Seance
     {
+     
+  
+
+
     }
 }

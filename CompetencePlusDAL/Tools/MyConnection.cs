@@ -31,7 +31,6 @@ namespace CompetencePlus.Tools
         /// <param name="Requete">La requête SQL à exécuter</param>
         public static int ExecuteNonQuery(string Requete)
         {
-
             Connection = new OleDbConnection(ConnectionString);
             Command = Connection.CreateCommand();
             Command.CommandText = Requete;

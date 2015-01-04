@@ -16,17 +16,17 @@ namespace CompetencePlus.Outils
         /// Ajouter l'objet o 
         /// </summary>
         /// <param name="o"></param>
-        void Add(Obj o);
+        int Add(Obj o);
         /// <summary>
         /// Mise à jour l'objet O en se basant sur la propriété Id
         /// </summary>
         /// <param name="o"></param>
-        void Update(Obj o);
+        int Update(Obj o);
         /// <summary>
         ///  Supprimer un objet par son Id
         /// </summary>
         /// <param name="id"></param>
-        void Delete(int id);
+        int Delete(int id);
         /// <summary>
         /// Trouver la liste de tous les objets
         /// </summary>
