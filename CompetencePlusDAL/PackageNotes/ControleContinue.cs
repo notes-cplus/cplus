@@ -54,12 +54,12 @@ namespace CompetencePlus.PackageNotes
         public ControleContinue(int id, PackageFormations.Formation formation, string code, string titre, string commentaire, DateTime dateControle)
         {
 
-            this.id = Id;
-            this.code = Code;
-            this.titre = Titre;
-            this.commentaire = Commentaire;
-            this.dateControle = DateControle;
-            this.formation = Formation;
+            this.Id = id;
+            this.Code = code;
+            this.Titre = titre;
+            this.Commentaire = commentaire;
+            this.DateControle = dateControle;
+            this.Formation = formation;
         
         }
     }

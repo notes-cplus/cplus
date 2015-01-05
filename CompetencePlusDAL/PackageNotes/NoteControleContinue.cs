@@ -38,10 +38,10 @@ namespace CompetencePlus.PackageNotes
         public NoteControleContinue() { }
         public NoteControleContinue(int id, PackageStagiaires.Stagiaire stagiaire, float valeur, ControleContinue controleContinue) {
 
-            this.id = Id;
-            this.stagiaire = Stagiaire;
-            this.valeur = Valeur;
-            this.controleContinue = ControleContinue;
+            this.Id = id;
+            this.Stagiaire = stagiaire;
+            this.Valeur = valeur;
+            this.ControleContinue = controleContinue;
         
         }
 

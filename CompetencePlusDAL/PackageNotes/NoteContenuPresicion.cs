@@ -41,10 +41,10 @@ namespace CompetencePlus.PackageNotes
         public NoteContenuPresicion(int id, PackageStagiaires.Stagiaire stagiaire, float valeur, PackagePrecision.ContenuPresicion contenuPresicion)
         {
 
-            this.id = Id;
-            this.stagiaire = Stagiaire;
-            this.valeur = Valeur;
-            this.ContenuPresicion = ContenuPresicion;
+            this.Id = id;
+            this.Stagiaire = stagiaire;
+            this.Valeur = valeur;
+            this.ContenuPresicion = contenuPresicion;
         
         }
 

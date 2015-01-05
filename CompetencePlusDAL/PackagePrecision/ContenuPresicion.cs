@@ -7,42 +7,49 @@ namespace CompetencePlus.PackagePrecision
 {
     public class ContenuPresicion
     {
+        private int id;
 
-        string nom;
+        public int Id
+        {
+            get { return id; }
+            set { id = value; }
+        }
+       private string nom;
 
         public string Nom
         {
             get { return nom; }
             set { nom = value; }
         }
-        string description;
+        private string description;
 
         public string Description
         {
             get { return description; }
             set { description = value; }
         }
-        double duree;
+        private double duree;
 
         public double Duree
         {
             get { return duree; }
             set { duree = value; }
         }
-        int order;
+        private int ordre;
 
-        public int Order
+        public int Ordre
         {
-            get { return order; }
-            set { order = value; }
+            get { return ordre; }
+            set { ordre = value; }
         }
         public ContenuPresicion() { }
-        public ContenuPresicion(string nom, string description, double duree, int order) 
+        public ContenuPresicion(int id, string nom, string description, double duree, int ordre) 
         {
+            this.Id = id;
             this.Nom = nom;
             this.Description = description;
             this.Duree = duree;
-            this.Order = order;
+            this.Ordre = ordre;
         }
         public override string ToString()
         {
