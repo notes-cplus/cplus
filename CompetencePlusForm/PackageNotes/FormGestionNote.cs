@@ -15,5 +15,7 @@ namespace CompetencePlus.PackageNotes
         {
             InitializeComponent();
         }
+
+       
     }
 }

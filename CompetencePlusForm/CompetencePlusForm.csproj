@@ -234,6 +234,15 @@
     <EmbeddedResource Include="PackageModules\FormeModule.resx">
       <DependentUpon>FormeModule.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PackageNotes\FormControle.resx">
+      <DependentUpon>FormControle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PackageNotes\FormGestionControle.resx">
+      <DependentUpon>FormGestionControle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PackageNotes\FormGestionNote.resx">
+      <DependentUpon>FormGestionNote.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PackagePrecision\FormeGestionPrecision.resx">
       <DependentUpon>FormeGestionPrecision.cs</DependentUpon>
     </EmbeddedResource>
