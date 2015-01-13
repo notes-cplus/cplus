@@ -7,7 +7,7 @@ using CompetencePlus.Tools;
 
 namespace CompetencePlus.PackageNotes
 {
-    class NoteContenuPresicionDAO
+   public  class NoteContenuPresicionDAO
     {
 
 
