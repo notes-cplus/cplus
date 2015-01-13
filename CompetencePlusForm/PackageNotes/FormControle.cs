@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
+
 namespace CompetencePlus.PackageNotes
 {
     public partial class FormControle : Form
@@ -18,7 +19,18 @@ namespace CompetencePlus.PackageNotes
 
         private void button1_Click(object sender, EventArgs e)
         {
+            ControleContinue controle = new ControleContinue();
+            controle.Code = txtCode.Text;
+            controle.Commentaire = richTextBox1.Text;
+            controle.DateControle = dateTimePicker1.Value;
+            controle.Formation=new PackageFormations.FormationDAO().FindById((int)comboBox1.SelectedValue);
+            controle.Titre=txtTitre.Text;
+            new ControleContinueDAO().Add(controle);
             
+        
         }
+
+       
+
     }
 }

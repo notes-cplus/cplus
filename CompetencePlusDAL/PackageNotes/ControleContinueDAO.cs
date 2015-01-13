@@ -7,7 +7,7 @@ using System.Data.OleDb;
 
 namespace CompetencePlus.PackageNotes
 {
-    class ControleContinueDAO
+    public class ControleContinueDAO
     {
         public int Add(ControleContinue c)
         {

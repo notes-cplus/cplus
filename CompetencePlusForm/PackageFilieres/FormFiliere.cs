@@ -6,7 +6,6 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using CompetencePlus.Tools;
 
 namespace CompetencePlus.PackageFilieres
 {
@@ -31,6 +30,7 @@ namespace CompetencePlus.PackageFilieres
                 filiere.Description = DescriptionTextBox.Text;
                 new FiliereBAO().Add(filiere);
                 this.Dispose();
+            
             }
             catch (Exception ex)
             {

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace CompetencePlus.PackageNotes
 {
-    class ControleContinue
+    public class ControleContinue
     {
         private int id;
 

@@ -284,6 +284,7 @@
     <None Include="Properties\DataSources\CompetencePlus.PackageFormations.Formation.datasource" />
     <None Include="Properties\DataSources\CompetencePlus.PackageGroupes.Groupe.datasource" />
     <None Include="Properties\DataSources\CompetencePlus.PackageModules.Module.datasource" />
+    <None Include="Properties\DataSources\CompetencePlus.PackageNotes.ControleContinue.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

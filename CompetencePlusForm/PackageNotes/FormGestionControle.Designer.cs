@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.button7 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
@@ -50,11 +51,19 @@
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.controleContinueBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.formationDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.codeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.titreDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.commentaireDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dateControleDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.controleContinueBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // button7
@@ -95,10 +104,19 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AutoGenerateColumns = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.idDataGridViewTextBoxColumn,
+            this.formationDataGridViewTextBoxColumn,
+            this.codeDataGridViewTextBoxColumn,
+            this.titreDataGridViewTextBoxColumn,
+            this.commentaireDataGridViewTextBoxColumn,
+            this.dateControleDataGridViewTextBoxColumn});
+            this.dataGridView1.DataSource = this.controleContinueBindingSource;
             this.dataGridView1.Location = new System.Drawing.Point(20, 20);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(240, 150);
+            this.dataGridView1.Size = new System.Drawing.Size(544, 150);
             this.dataGridView1.TabIndex = 4;
             // 
             // button2
@@ -257,17 +275,57 @@
             this.groupBox4.Controls.Add(this.button2);
             this.groupBox4.Location = new System.Drawing.Point(262, 54);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(499, 416);
+            this.groupBox4.Size = new System.Drawing.Size(573, 416);
             this.groupBox4.TabIndex = 11;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Liste des Controles";
-
+            // 
+            // controleContinueBindingSource
+            // 
+            this.controleContinueBindingSource.DataSource = typeof(CompetencePlus.PackageNotes.ControleContinue);
+            // 
+            // idDataGridViewTextBoxColumn
+            // 
+            this.idDataGridViewTextBoxColumn.DataPropertyName = "Id";
+            this.idDataGridViewTextBoxColumn.HeaderText = "Id";
+            this.idDataGridViewTextBoxColumn.Name = "idDataGridViewTextBoxColumn";
+            this.idDataGridViewTextBoxColumn.Visible = false;
+            // 
+            // formationDataGridViewTextBoxColumn
+            // 
+            this.formationDataGridViewTextBoxColumn.DataPropertyName = "Formation";
+            this.formationDataGridViewTextBoxColumn.HeaderText = "Formation";
+            this.formationDataGridViewTextBoxColumn.Name = "formationDataGridViewTextBoxColumn";
+            // 
+            // codeDataGridViewTextBoxColumn
+            // 
+            this.codeDataGridViewTextBoxColumn.DataPropertyName = "Code";
+            this.codeDataGridViewTextBoxColumn.HeaderText = "Code";
+            this.codeDataGridViewTextBoxColumn.Name = "codeDataGridViewTextBoxColumn";
+            // 
+            // titreDataGridViewTextBoxColumn
+            // 
+            this.titreDataGridViewTextBoxColumn.DataPropertyName = "Titre";
+            this.titreDataGridViewTextBoxColumn.HeaderText = "Titre";
+            this.titreDataGridViewTextBoxColumn.Name = "titreDataGridViewTextBoxColumn";
+            // 
+            // commentaireDataGridViewTextBoxColumn
+            // 
+            this.commentaireDataGridViewTextBoxColumn.DataPropertyName = "Commentaire";
+            this.commentaireDataGridViewTextBoxColumn.HeaderText = "Commentaire";
+            this.commentaireDataGridViewTextBoxColumn.Name = "commentaireDataGridViewTextBoxColumn";
+            // 
+            // dateControleDataGridViewTextBoxColumn
+            // 
+            this.dateControleDataGridViewTextBoxColumn.DataPropertyName = "DateControle";
+            this.dateControleDataGridViewTextBoxColumn.HeaderText = "DateControle";
+            this.dateControleDataGridViewTextBoxColumn.Name = "dateControleDataGridViewTextBoxColumn";
             // 
             // FormGestionControle
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(763, 536);
+            this.ClientSize = new System.Drawing.Size(847, 536);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
@@ -287,6 +345,7 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.controleContinueBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -315,5 +374,12 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn idDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn formationDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn codeDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn titreDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn commentaireDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dateControleDataGridViewTextBoxColumn;
+        private System.Windows.Forms.BindingSource controleContinueBindingSource;
     }
 }
