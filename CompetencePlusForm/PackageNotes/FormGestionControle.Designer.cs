@@ -115,7 +115,6 @@
             this.button2.TabIndex = 3;
             this.button2.Text = "Valider";
             this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button6
             // 
@@ -385,7 +384,6 @@
             this.Controls.Add(this.groupBox4);
             this.Name = "FormGestionControle";
             this.Text = "FormGestionControle";
-            this.Load += new System.EventHandler(this.FormGestionControle_Load);
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.formationBindingSource)).EndInit();
